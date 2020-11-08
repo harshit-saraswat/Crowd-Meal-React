@@ -1,0 +1,74 @@
+:root{
+    --success:#4ec99a;
+    --warning:#f8a830;
+    --danger:#fa83ab;
+}
+
+.card{
+    padding: 8px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 250ms;
+}
+.card--success{
+    background: var(--success);
+}
+
+.card--warning{
+    background: var(--warning);
+}
+
+.card--danger{
+    background: var(--danger);
+}
+
+.card img{
+    margin: 20px 0;
+}
+
+.card h4{
+    font-size: 1.2rem;
+    margin: 20px 0;
+    width: 80%;
+    word-break: normal;
+    white-space: normal; 
+}
+
+.card p{
+    font-size: 0.9rem;
+    width: 80%;
+    display: inline-block;
+    word-break: normal;
+    white-space: normal; 
+    margin: 20px 0;
+}
+
+.card--medium{
+    padding: 8px 20px;
+    border-radius: 10px;
+    width: 250px;
+    margin: 20px;
+}
+
+.card--large{
+    padding: 12px 26px;
+    border-radius: 10px;
+    width: 280px;
+    margin: 20px;
+}
