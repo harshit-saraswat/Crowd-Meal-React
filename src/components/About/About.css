@@ -1,0 +1,55 @@
+.container-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #edfaf5;
+}
+
+.section-left{
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section-left .section-header{
+    color: #4ac6d6;
+    font-size: 1.8rem;
+}
+
+.section-left .section-header-large{
+    font-size: 2.8rem; 
+}
+
+.section-left .section-description{
+    font-size: 0.9rem;
+    margin: 1rem auto 0;
+}
+
+.rightImage{
+    height: 80vh;
+}
+
+.mail-link{
+    margin: 1rem 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.mail-link p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.mail-link:hover{
+    color: teal;
+}
+
+.fa-envelope{
+    color: #4ac6d6;
+    margin-right: 15px;
+    font-size: 1.3rem;
+}

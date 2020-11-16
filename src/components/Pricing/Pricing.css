@@ -1,0 +1,107 @@
+:root{
+    --successLight:#edfaf5;
+    --warningLight:#fff3ef;
+    --dangerLight:#fef4f7;
+    --successDark:#4ec99a;
+    --warningDark:#f8a830;
+    --dangerDark:#fa83ab;
+}
+
+.pricing{
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    padding: 8px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #000;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+}
+
+.pricing--success{
+    background: var(--successLight);
+}
+
+.pricing--warning{
+    background: var(--warningLight);
+}
+
+.pricing--danger{
+    background: var(--dangerLight);
+}
+
+.pricing-icon{
+    width: 45%;
+    position: absolute;
+    top: -13%;
+}
+
+.pricing-title{
+    margin-top: 20%;
+    font-size: 1.6rem;
+}
+
+.pricing-separator{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.pricing-separator.pricing--success{
+    border-color: var(--successDark);
+}
+
+.pricing-separator.pricing--warning{
+    border-color: var(--warningDark);
+}
+
+.pricing-separator.pricing--danger{
+    border-color: var(--dangerDark);
+}
+
+.pricing-description{
+    font-size: 0.9rem;
+    width: 90%;
+    display: inline-block;
+    word-break: normal;
+    white-space: normal; 
+}
+
+.pricing-list{
+    font-size: 0.9rem;
+    width: 90%;
+    display: inline-block;
+    word-break: normal;
+    white-space: normal;
+    text-align: start;
+    list-style-image: url('https://thecrowdmeal.org/wp-content/uploads/2018/03/home_dietitian2_pic5.png');
+    list-style-position: outside;
+}
+
+
+.pricing-list.pricing--success{
+    list-style-image: url('https://thecrowdmeal.org/wp-content/uploads/2018/03/home_dietitian2_pic5.png');
+}
+
+.pricing-list.pricing--warning{
+    list-style-image: url('https://thecrowdmeal.org/wp-content/uploads/2018/03/home_dietitian2_pic9.png');
+}
+
+.pricing-list.pricing--danger{
+    list-style-image: url('https://thecrowdmeal.org/wp-content/uploads/2018/03/home_dietitian2_pic10.png');
+}
+
+.pricing-list li{
+    margin: 10px;
+}
+
+.btn-block{
+    width: 100%;
+}

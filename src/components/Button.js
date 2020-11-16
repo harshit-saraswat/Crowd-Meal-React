@@ -4,12 +4,16 @@ import './Button.css';
 const STYLES = [
     'btn--primary',
     'btn--outline',
-    'btn--purple'
+    'btn--purple',
+    'btn--success',
+    'btn--warning',
+    'btn--danger'
 ];
 
 const SIZES = [
     'btn--medium',
-    'btn--large'
+    'btn--large',
+    'btn--block'
 ];
 
 export const Button = ({

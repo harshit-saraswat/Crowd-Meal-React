@@ -1,0 +1,30 @@
+.icons-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+}
+
+.icons-row .logo-image{
+    height: 12vh;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer .backToTopLink{
+    text-decoration: none;
+    color: #b9bec5;
+    font-size: 1.3rem;
+    margin: 2rem 0;
+}
+
+.footer .footer-text{
+    color: #b9bec5;
+    margin: 1rem 0 0;
+}
+
+
